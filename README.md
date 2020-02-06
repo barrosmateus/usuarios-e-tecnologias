@@ -31,7 +31,7 @@ function checaSeUsuarioUsaCSS(){
         const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuarios[i])
         // se o usuario usar
         if (checaSeUsuarioUsaCSS){
-            //mostre o usuario e o nome 
+            //mostre o nome do usuario
             console.log(`o usuario ${usuarios[i].nome} trabalha com CSS`)
             //o i irá assumir e avaliar todos os nomes cadastrados
         }
